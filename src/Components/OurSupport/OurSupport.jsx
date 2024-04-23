@@ -1,6 +1,6 @@
 const OurSupport = () => {
   return (
-    <div className="mt-4 mb-72">
+    <div className="mt-4 mb-24">
       <img
         className="mx-auto ml-32 w-[1000px] h-[424px] rounded-lg"
         src="https://i.ibb.co/6ZYnCK5/navigation.png"

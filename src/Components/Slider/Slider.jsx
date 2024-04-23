@@ -56,8 +56,13 @@ const Slider = () => {
               ROUFIAN’S HSC-24 RAG DAy
             </h1>
             <div className="flex flex-col md:flex-row gap-4 mt-4 ml-28">
-              <button className="bg-violet-600 p-2 rounded-lg text-white">
-                Get Ticket
+              <button className="bg-violet-600 px-4 py-2 rounded-lg text-white flex items-center">
+                <img
+                  className="w-4 h-4 mr-2"
+                  src="https://i.ibb.co/t8YzQgY/Vector.png"
+                  alt=""
+                />
+                See Ticket
               </button>
               <button className="text-violet-600 bg-white p-2 rounded-lg">
                 20 Seat <br /> <span className="ml-4">Left</span>
@@ -85,8 +90,13 @@ const Slider = () => {
               ROUFIAN’S HSC-24 RAG DAy
             </h1>
             <div className="flex flex-col md:flex-row gap-4 mt-4 ml-40">
-              <button className="bg-violet-600 p-2 rounded-lg text-white">
-                Get Ticket
+              <button className="bg-violet-600 px-4 py-2 rounded-lg text-white flex items-center">
+                <img
+                  className="w-4 h-4 mr-2"
+                  src="https://i.ibb.co/t8YzQgY/Vector.png"
+                  alt=""
+                />
+                See Ticket
               </button>
               <button className="text-violet-600 bg-white p-2 rounded-lg">
                 20 Seat <br /> <span className="ml-4">Left</span>
@@ -114,8 +124,13 @@ const Slider = () => {
               ROUFIAN’S HSC-24 RAG DAy
             </h1>
             <div className="flex flex-col md:flex-row gap-4 mt-4 ml-40">
-              <button className="bg-violet-600 p-2 rounded-lg text-white">
-                Get Ticket
+              <button className="bg-violet-600 px-4 py-2 rounded-lg text-white flex items-center">
+                <img
+                  className="w-4 h-4 mr-2"
+                  src="https://i.ibb.co/t8YzQgY/Vector.png"
+                  alt=""
+                />
+                See Ticket
               </button>
               <button className="text-violet-600 bg-white p-2 rounded-lg">
                 20 Seat <br /> <span className="ml-4">Left</span>
