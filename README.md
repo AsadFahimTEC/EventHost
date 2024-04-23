@@ -1,2 +1,2 @@
-<h6>School Management System: AmarSchool</h6>
-<h6>Live Website: https://amarschool25.netlify.app</h6>
+<h6>EventHost</h6>
+<h6>Live Website: </h6>

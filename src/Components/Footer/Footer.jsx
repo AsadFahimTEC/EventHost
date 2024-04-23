@@ -65,66 +65,47 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="footer bg-violet-800 items-center  p-4 text-white border-t  ">
+      <footer className="footer bg-[#591BFF] items-center  p-4 text-white border-t  mt-12">
         <aside style={{ width: "200px" }}>
           <img
-            className="h-32 w-36 ml-20"
-            src="https://i.ibb.co/TrX4Vvs/Multicolor-playful-children-art-school-logo-20240405-220208-0000-removebg-preview.png"
+            className="h-6 w-36 ml-20"
+            src="https://i.ibb.co/K7MQQJp/Event-Host.png"
             alt=""
           />
+          <h6 className="ml-20 mt-2">IDEA Project, ICT Tower (0th Floor), <br />Plot: E-14X, Agargaon, Dhaka - 1207 <br /> 02222-222222, 01111111111</h6>
         </aside>
         <nav>
-          <header className="footer-title border-b-4 border-[#006bcb]">
-            Services
-          </header>
+       
 
           <Link
-            to={"/translate"}
+            to={"/"}
             className="link link-hover hover:translate-x-2"
           >
-            Translate
-          </Link>
-          <Link to={"/contact"} className="link link-hover hover:translate-x-2">
-            Contact
+            Home
           </Link>
           <Link
-            to={"/features"}
+            to={"/"}
             className="link link-hover hover:translate-x-2"
           >
-            Features
+            Events
+          </Link>
+          <Link to={"/"} className="link link-hover hover:translate-x-2">
+            About Us
+          </Link>
+          <Link
+            to={"/"}
+            className="link link-hover hover:translate-x-2"
+          >
+            Contact
           </Link>
         </nav>
+       
         <nav>
-          <header className="footer-title border-b-4 border-[#006bcb]">
-            Company
-          </header>
-          <Link to="/getintuch" className="link link-hover hover:translate-x-2">
-            Get In Touch
-          </Link>
-          {/* <link className="link link-hover hover:translate-x-2">Contact</link> */}
-          <Link to="/aboutUs">
-            <button
-              className="font-avenir mr-10  rounded link link-hover hover:translate-x-2"
-              onClick={scrollToTop()}
-            >
-              About us
-            </button>
-          </Link>
-          <Link to="/meetTeam">
-            <button className="font-avenir mr-10  rounded link link-hover hover:translate-x-2">
-              Meet Our Team
-            </button>
-          </Link>
-        </nav>
-        <nav>
-          <header className="footer-title border-b-4 border-[#006bcb]">
-            Legal
-          </header>
           <button
             className="hover:translate-x-2 link link-hover"
             onClick={showModalAndScrollToTop}
           >
-            Terms and Conditions
+            Event Dashboard
           </button>
           <dialog id="my_modal_1" className="modal">
             <div className="modal-box" ref={modalContentRef1}>
@@ -142,7 +123,7 @@ const Footer = () => {
             className="hover:translate-x-2 link link-hover"
             onClick={newShowModalAndScrollToTop}
           >
-            Privacy Policy
+            Terms & Condition
           </button>
           <dialog id="my_modal_2" className="modal">
             <div className="modal-box" ref={modalContentRef2}>
@@ -163,7 +144,7 @@ const Footer = () => {
             className="hover:translate-x-2 link link-hover"
             onClick={newNewShowModalAndScrollToTop}
           >
-            Cookies Policy
+            Privacy & Refund Policy
           </button>
           <dialog id="my_modal_3" className="modal">
             <div className="modal-box" ref={modalContentRef3}>
@@ -179,9 +160,7 @@ const Footer = () => {
           </dialog>
         </nav>
         <nav>
-          <header className="footer-title  border-b-4 border-[#006bcb]">
-            Social
-          </header>
+          <h1 className="text-white">Follow US</h1>
           <div className="grid grid-flow-col gap-4">
             <a
               href="https://twitter.com/"
