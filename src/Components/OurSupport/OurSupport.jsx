@@ -32,18 +32,47 @@ const OurSupport = () => {
         </h1>
       </div>
       <div>
-        <li className="text-sm text-center text-white ml-52 mt-2">
-          Host Your Events With Easy Steps!
-        </li>
-        <li className="text-sm text-center text-white ml-52 mt-2">
-          Automated Payment System Pro.
-        </li>
-        <li className="text-sm text-center text-white ml-52 mt-2">
-          Access To Registration Time Rep.
-        </li>
-        <li className="text-sm text-center text-white ml-52 mt-2">
-          Send Bulk Mail Easily With Atta
-        </li>
+        <div className="text-sm text-center text-white ml-52 mt-2">
+          <img
+            className="inline-block align-middle mr-2 w-4 h-4"
+            src="https://i.ibb.co/34ZtkHN/fi-sr-shield-check.png"
+            alt=""
+          />
+          <span className="inline-block align-middle">
+            Host Your Events With Easy Steps in Time !
+          </span>
+        </div>
+
+        <div className="text-sm text-center text-white ml-52 mt-2">
+          <img
+            className="inline-block align-middle mr-2 w-4 h-4"
+            src="https://i.ibb.co/34ZtkHN/fi-sr-shield-check.png"
+            alt=""
+          />
+          <span className="inline-block align-middle">
+            Automated Payment System and Ticket W.
+          </span>
+        </div>
+        <div className="text-sm text-center text-white ml-52 mt-2">
+          <img
+            className="inline-block align-middle mr-2 w-4 h-4"
+            src="https://i.ibb.co/34ZtkHN/fi-sr-shield-check.png"
+            alt=""
+          />
+          <span className="inline-block align-middle">
+            Access To Registration and Reports in Tim.
+          </span>
+        </div>
+        <div className="text-sm text-center text-white ml-52 mt-2">
+          <img
+            className="inline-block align-middle mr-2 w-4 h-4"
+            src="https://i.ibb.co/34ZtkHN/fi-sr-shield-check.png"
+            alt=""
+          />
+          <span className="inline-block align-middle">
+            Send Bulk Mail Easily With Attachments ..
+          </span>
+        </div>
       </div>
     </div>
   );
