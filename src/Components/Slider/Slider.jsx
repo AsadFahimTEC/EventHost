@@ -23,6 +23,7 @@ const Slider = () => {
             alt=""
             style={{ width: "100%", maxWidth: "350px", height: "auto" }}
           />
+
           <img
             className="card"
             src="https://i.ibb.co/NC1K110/Rectangle-16-1.png"
@@ -39,17 +40,27 @@ const Slider = () => {
 
         <div className="mt-2 flex items-center justify-center gap-4">
           {/* one */}
+
           <div>
             <h1 className="ml-28">
               -------------------------------------------
             </h1>
-            <h1 className="ml-28">Music</h1>
+            <button className="ml-28 px-2 py-1 rounded-lg text-white bg-violet-800">
+              Music
+            </button>
             <div className="flex gap-16 ml-28">
-              <h1>Celebrity Convention Hall</h1>
+              <div className="flex gap-0 mt-2">
+                <img
+                  className="w-6 h-6"
+                  src="https://i.ibb.co/kDDhPFp/619-removebg-preview.png"
+                  alt=""
+                />
+                <h1>Celebrity Convention Hall</h1>
+              </div>
               <h1>Apr</h1>
             </div>
             <div className="ml-96">
-              <h1 className="-ml-8 text-violet-600 text-2xl">20</h1>
+              <h1 className="-ml-4 text-violet-600 text-2xl">20</h1>
               <h1 className="-ml-12">10.00 PM</h1>
             </div>
             <h1 className="ml-28 text-[#111111] font-bold">
@@ -77,13 +88,22 @@ const Slider = () => {
             <h1 className="ml-40">
               -------------------------------------------
             </h1>
-            <h1 className="ml-40">Music</h1>
+            <button className="ml-40 px-2 py-1 rounded-lg text-white bg-violet-800">
+              Music
+            </button>
             <div className="flex gap-16 ml-40">
-              <h1>Celebrity Convention Hall</h1>
+              <div className="flex gap-0 mt-2">
+                <img
+                  className="w-6 h-6"
+                  src="https://i.ibb.co/kDDhPFp/619-removebg-preview.png"
+                  alt=""
+                />
+                <h1>Celebrity Convention Hall</h1>
+              </div>
               <h1>Apr</h1>
             </div>
             <div className="ml-96">
-              <h1 className="ml-4 text-violet-600 text-2xl">20</h1>
+              <h1 className="ml-8 text-violet-600 text-2xl">20</h1>
               <h1 className="ml-2">10.00 PM</h1>
             </div>
             <h1 className="ml-40 text-[#111111] font-bold">
@@ -111,13 +131,22 @@ const Slider = () => {
             <h1 className="ml-40">
               -------------------------------------------
             </h1>
-            <h1 className="ml-40">Music</h1>
+            <button className="ml-40 px-2 py-1 rounded-lg text-white bg-violet-800">
+              Music
+            </button>
             <div className="flex gap-16 ml-40">
-              <h1>Celebrity Convention Hall</h1>
+              <div className="flex gap-0 mt-2">
+                <img
+                  className="w-6 h-6"
+                  src="https://i.ibb.co/kDDhPFp/619-removebg-preview.png"
+                  alt=""
+                />
+                <h1>Celebrity Convention Hall</h1>
+              </div>
               <h1>Apr</h1>
             </div>
             <div className="ml-96">
-              <h1 className="ml-4 text-violet-600 text-2xl">20</h1>
+              <h1 className="ml-8 text-violet-600 text-2xl">20</h1>
               <h1 className="ml-2">10.00 PM</h1>
             </div>
             <h1 className="ml-40 text-[#111111] font-bold">
